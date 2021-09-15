@@ -10,6 +10,7 @@ public class Java_Hight {
         for (Method m: methods)
             System.out.println(m.toString());
 
+        //Показывает методы объявленные в классе ClassB
         System.out.println("Объявленные методы класса B");
         for (Method m: declaredMethods)
             System.out.println(m.toString());
